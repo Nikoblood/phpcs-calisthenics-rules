@@ -3,37 +3,18 @@
     "description": "PHP CodeSniffer Object Calisthenics rules/sniffs",
     "license": "MIT",
     "type": "phpcodesniffer-standard",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/javer/coding-standard.git"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "aboks/graphql-relay-php",
-                "type": "package",
-                "version": "0.1.0",
-                "source": {
-                    "url": "git@github.com:aboks/graphql-relay-php.git",
-                    "type": "git",
-                    "reference": "php8"
-                }
-            }
-        }
-    ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^8.0",
         "nette/utils": "^3.1",
-        "slevomat/coding-standard": "dev-fix-phpdoc-parser-dependency",
+        "slevomat/coding-standard": "7.0.9",
         "squizlabs/php_codesniffer": "dev-master"
     },
     "require-dev": {
-        "phpstan/phpstan": "^0.12.38",
-        "phpunit/phpunit": "^9.3",
-        "rector/rector": "^0.8.6",
+        "phpstan/phpstan": "^0.12.90",
+        "phpunit/phpunit": "^9.5",
+        "rector/rector": "^0.11.46",
         "tracy/tracy": "^2.7",
-        "phpstan/phpdoc-parser": "^0.4.9",
+        "phpstan/phpdoc-parser": "^0.5.4",
         "migrify/config-transformer": "^0.3.35"
     },
     "autoload": {
